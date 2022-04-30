@@ -1,8 +1,7 @@
 #!/bin/bash
-registro=$1
-imagen=$2
-version=$3
-contenedor=$4
+imagen=$1
+version=$2
+contenedor=$3
 
 # --------- COMANDOS DOCKER -----------
 docker stop $contenedor
