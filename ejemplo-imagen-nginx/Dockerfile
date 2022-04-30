@@ -1,6 +1,6 @@
 FROM nginx:latest
 
-LABEL maintainer="NeoTeamDevops@gmail.com"
+LABEL maintainer="NeoDevops@gmail.com"
 
 WORKDIR /var/www/html/
 

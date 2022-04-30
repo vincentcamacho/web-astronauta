@@ -1,6 +1,6 @@
 FROM ubuntu:20.04
 
-LABEL maintainer="NeoTeamDevops@gmail.com"
+LABEL maintainer="NeoDevops@gmail.com"
 
 #Turns off the questions normally asked for location and timezone for Apache
 ARG DEBIAN_FRONTEND=noninteractive
