@@ -2,6 +2,6 @@ FROM nginx:latest
 
 LABEL maintainer="NeoDevops@gmail.com"
 
-WORKDIR /var/www/html/
+WORKDIR /usr/share/nginx/html/
 
 COPY codigo-html/ .
