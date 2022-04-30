@@ -13,6 +13,6 @@ RUN apt-get update && apt-get install -y \
 
 WORKDIR /var/www/html/
 
-COPY global/ .
+COPY codigo-html/ .
 
 CMD ["apachectl", "-D", "FOREGROUND"]
