@@ -16,5 +16,3 @@ WORKDIR /var/www/html/
 COPY global/ .
 
 CMD ["apachectl", "-D", "FOREGROUND"]
-
-
