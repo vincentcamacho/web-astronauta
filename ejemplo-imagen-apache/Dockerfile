@@ -2,6 +2,6 @@ FROM httpd:latest
 
 LABEL maintainer="NeoDevops@gmail.com"
 
-WORKDIR /var/www/html/
+WORKDIR /usr/local/apache2/htdocs/
 
-COPY codigo-html/ .
+COPY ./codigo-html/ .
