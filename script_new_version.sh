@@ -8,7 +8,7 @@ docker stop $contenedor
 docker rm $contenedor
 docker rmi vincenup/$imagen:'latest'
 
-cd ~/ts/web-astronauta/
+cd ~/ts/codigo-html/
 docker build -t vincenup/$imagen:$version .
 docker tag vincenup/$imagen:$version vincenup/$imagen:'latest'
 
