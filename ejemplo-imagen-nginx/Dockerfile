@@ -4,4 +4,4 @@ LABEL maintainer="NeoDevops@gmail.com"
 
 WORKDIR /usr/share/nginx/html/
 
-COPY codigo-html/ .
+COPY ./codigo-html/ .
