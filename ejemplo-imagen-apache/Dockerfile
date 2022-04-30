@@ -1,4 +1,4 @@
-FROM apache2:latest
+FROM httpd:latest
 
 LABEL maintainer="NeoDevops@gmail.com"
 
