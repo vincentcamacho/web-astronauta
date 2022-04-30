@@ -1,7 +1,6 @@
 #!/bin/bash
-imagen=$1
-contenedor=$2
-version=$3
+# imagen=$1; contenedor=$2; version=$3
+imagen=nasa; contenedor=website; version=v500
 
 # --------- COMANDOS DOCKER -----------
 docker stop $contenedor
